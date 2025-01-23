@@ -9,7 +9,7 @@ const storiesContainer = document.getElementById('storiesContainer');
 
     function addStories() {
         const mediaInput = document.getElementById('mediaInput');
-        const storyTitleInput = document.getElementById('storyTitleInput');
+        const storyTitleInput = document.getElementById('storyTitle');
         const files = Array.from(mediaInput.files);
         const storyTitle = storyTitleInput.value.trim();
 
